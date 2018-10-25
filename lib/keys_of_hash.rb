@@ -4,7 +4,7 @@ class Hash
     key_values = []
 
     arguments.each do |arg|
-      key_values << keys(arg)
+      key_values << key(arg)
 #      binding.pry
 
     end
