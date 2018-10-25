@@ -4,8 +4,8 @@ class Hash
     key_values = []
 
     arguments.each do |arg|
-      key_values << arg
-      binding.pry
+      key_values << arg.keys
+#      binding.pry
 
     end
     key_values.flatten
